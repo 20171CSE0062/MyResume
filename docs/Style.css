@@ -1,0 +1,106 @@
+div
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
+h1
+{
+    color:white; 
+    font-family:courier;
+    text-align:left; 
+    text-shadow: 5px 2px 4px grey;
+}
+body
+{
+    background-image: url("Background.jpg");
+}
+div.back
+{
+    border: 2px;
+    border-radius: 20px;
+    background-color: rgb(34,31,31);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+}
+nav 
+{
+    padding: 10px 0;
+    min-width: 500px; 
+ }
+ nav ul 
+ {
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 255, 0) 0%, 
+      rgba(255, 255, 255, 0.2) 25%, 
+      rgba(255, 255, 255, 0.2) 75%, 
+      rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+      inset 0 0 1px rgba(255, 255, 255, 0.6);
+ }
+ nav ul li 
+ {
+    display: inline-block;
+ }
+ nav ul li a
+ {
+    padding: 10px; 
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    display: block;
+}
+h2
+{
+    color:white; 
+    font-family:courier; 
+    text-align:left;
+}
+table
+{
+    width:50%;
+}
+img.Back
+{
+    height:30px;
+    width: 30px;
+}
+a.link
+{
+    color: darkgoldenrod;
+}
+a.link:active
+{
+    color: #FFFFFF;
+}
+a.link:hover
+{
+    color: blanchedalmond;
+}
+th
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(92, 43, 226);
+}
+td, tr
+{
+    color: white;
+    background-color: rgb(53, 124, 255);
+}
+img.profile
+{
+    float:right;
+    width:105px;
+    height:105px;
+    border-radius: 50px ;
+    transition: 2s;
+}
+img.profile:hover
+{
+    width:150px;
+    height:150px;
+    border-radius: 0px;
+}
